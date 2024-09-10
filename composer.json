@@ -1,0 +1,20 @@
+{
+    "name": "aufccs/people_generator",
+    "description": "A simple people generator php file",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Aufccs\\PeopleGenerator\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Marcus Jeremy M. Carino"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "fakerphp/faker": "^1.23"
+    }
+}
